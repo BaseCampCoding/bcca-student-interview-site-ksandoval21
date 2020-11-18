@@ -1,7 +1,7 @@
 # Build and Host your First Site on GitHub Pages
 
 In this assignment you are going to build and deploy your first website, but just like
-[Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/) says you need to
+[Web Design in 4 minutes]( ) says you need to
 get some content first.
 
 ## What Is This Website About
