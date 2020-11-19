@@ -10,6 +10,7 @@
         font-size: 40px;
         color: rgb(68, 121, 146);
         text-align: center;
+        box-shadow: 0 10px 20px;
     }
     p {
         font-size: 20px;
@@ -33,8 +34,8 @@
     }
     #date {
         background-color: gray ;
+        margin: 15px;
         padding: 15px;
-
     }
     .name {
         background-color: gray;
@@ -45,21 +46,19 @@
         height: 200px;
     }
 </style>
-<head>
-    <title id="title">Base Camp Coding Academy Student Interviews</title>
+    <h1 id="title">Base Camp Coding Academy Student Interviews</h1>
     <img id="image" 
     src="data:image/png;base64,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"
     alt= "BCCA Logo"/>
-</head>
     <p class="name">My name is Kenia N. Sandoval. I am a current sudent at Base Camp. I want to persue a career in web design.</p>
     <img id="images"
     src="https://scontent.fjan1-1.fna.fbcdn.net/v/t1.0-1/p240x240/122314291_103145118262018_7456249369207035560_n.jpg?_nc_cat=109&ccb=2&_nc_sid=dbb9e7&_nc_ohc=kTFN2NrQM1gAX-ksUwC&_nc_ht=scontent.fjan1-1.fna&tp=6&oh=68da4912f7c4ec793ee61bed05b70252&oe=5FD9A9FF"
-    alt="A picture of Kenia Sandoval"/>
-    <p class ="text">For my Classmate Interview I interviewed Joseph Dandan.</p>
+    alt="A picture of Kenia Sandoval"/><hr>
+    <p class ="text">Classmate Interview: Joseph Dandan</p>
     <ul>
-        <li>"What has been the toughest week at BCCA?" Joseph's roughest week was the first week of school when he was trying to get the concept of learning a new language. </li>
-        <li>"What has been the easiest week at BCCA?" He feels like his easiest week was the week he learned html.</li>
-        <li>"What is your biggest victory so far at BCCA?" His biggest victory is passing a benchmark completely right before the second unit project.</li>
+        <li>What has been the toughest week at BCCA? Joseph's roughest week was the first day of school when he was trying to get the concept of learning a new language. </li>
+        <li>What has been the easiest week at BCCA? He feels like his easiest week was the week he learned html.</li>
+        <li>What is your biggest victory so far at BCCA? His biggest victory is passing a benchmark completely right before the second unit project.</li>
     </ul>
     <p id="date">This interview took place the morning of November 19, 2020.</p>
     <p class="text">Extra information about <a target="_blank" href="https://basecampcodingacademy.org/">Base Camp:</a>
